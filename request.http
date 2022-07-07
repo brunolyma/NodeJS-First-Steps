@@ -1,0 +1,26 @@
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+    "name": "Caneta azul",
+    "price": 2
+}
+
+###
+
+GET http://localhost:3001/products
+
+### 
+GET http://localhost:3001/products/54dff835-30b3-4707-873c-4a16cb7be36b
+
+###
+PUT http://localhost:3001/products/101bfd7f-6c13-476a-bc85-3c06c9fe30f9
+Content-Type: application/json
+
+{
+    "name": "Lápis Faber-Castell",
+    "price": 2.50
+}
+
+###
+DELETE http://localhost:3001/products/b2e4e2a6-db0f-4fe2-895a-de6d1cd6e234

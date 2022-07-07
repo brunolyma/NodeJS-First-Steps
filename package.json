@@ -1,0 +1,16 @@
+{
+  "name": "iniciando-com-nodejs",
+  "version": "1.0.0",
+  "description": "Primeiro projeto em node 2022",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Bruno Lima",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
